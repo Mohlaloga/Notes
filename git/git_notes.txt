@@ -1,0 +1,31 @@
+Command						Definition
+
+1. git config --list		------>		list all the configurations.
+
+2. git init			------>		initialize a repository from an existing code.
+
+3. rm -rf .git			------>		removes git directory or untracks a directory.
+
+4. git status			------>		to check untracked files.
+
+5. git add			------>		add files to the staging area.
+
+6. git reset			------>		removes files the staging area.
+
+7. git commit -m "msg"		------>		commit files to the git repository
+
+9. git log 			------>		shows record of the commits.
+
+10. git clone <url> <directry>  ------>		clones a remote repo.
+
+11. git remote -v		------>		displays info of remote repo.
+
+12. git branch -a		------>		displays all the branches.
+
+13. git checkout 'branch_name'	------>		switches to another branch.
+
+13. git rm --cached <file>	------>		to unstage
+
+14. git push -u origin master 	------>		is used for pushing local content to GitHub
+
+	

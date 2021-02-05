@@ -1,0 +1,18 @@
+CSS
+-for css files to load you need to import the 'url_for' module in the '.py' file
+or the main file, then in the 'html' file inside the head section type:
+
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}>
+
+TEMPLATE
+
+	from flask import Flask, render_template
+	app = Flask(__name__)
+	
+	@app.route('/home')
+	def home():
+		return render_template("index.html")
+
+	if __name__ == "__main__":
+		app.run(debug=True)
+	

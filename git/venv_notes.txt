@@ -1,0 +1,13 @@
+Command							Action
+
+- python -m venv (name of veenv)	---> 		creates a new venv
+
+- (name of venv)\Scripts\activate.bat 	---> 		activates a venv
+
+- deactivate 				---> 		deactivates the venv
+
+- rmdir (name of venv) /s 		---> 		deletes the venv
+
+- pip install -r requirements.txt 	---> 		imports packages from requirements.txt file
+
+
